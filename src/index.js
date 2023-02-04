@@ -4,8 +4,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Class1 from './Class1';
 import ListRender from './ListRender';
+import UseStateObj from './UseStateObj';
 import UseState from './UseState';
-
+import Formhandling from './Formhandling';
+import Checkbox from './Checkbox';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const arr1 = [2, 45, 46]
@@ -16,7 +18,12 @@ const handle = ()=>{
 root.render(
   
  <>
- <UseState></UseState>
+  {/* <Formhandling/> */}
+  <Checkbox></Checkbox>
+
+
+ {/* <UseStateObj></UseStateObj> */}
+ {/* <UseState></UseState> */}
  {/* <ListRender></ListRender> */}
 {/* <Class1 name="Adil" fun ={handle}>
   this is children of class 
