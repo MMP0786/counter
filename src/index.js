@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import App from './App';
-import Class1 from './Class1';
-import ListRender from './ListRender';
-import UseStateObj from './UseStateObj';
-import UseState from './UseState';
-import Formhandling from './Formhandling';
-import Checkbox from './Checkbox';
+// import App from './App';
+// import Class1 from './Class1';
+// import ListRender from './ListRender';
+// import UseStateObj from './UseStateObj';
+// import UseState from './UseState';
+// import Formhandling from './Formhandling';
+// import Checkbox from './Checkbox';
+// import Checkbox1 from './Checkbox1';
+import Useref from './Useref';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const arr1 = [2, 45, 46]
@@ -18,8 +20,10 @@ const handle = ()=>{
 root.render(
   
  <>
+ <Useref></Useref>
+ {/* <Checkbox1></Checkbox1> */}
   {/* <Formhandling/> */}
-  <Checkbox></Checkbox>
+  {/* <Checkbox></Checkbox> */}
 
 
  {/* <UseStateObj></UseStateObj> */}
