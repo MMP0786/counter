@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import "./index.css"
 
-// import App from './App';
+import App from './App';
 // import Class1 from './Class1';
 // import ListRender from './ListRender';
 // import UseStateObj from './UseStateObj';
@@ -12,15 +14,20 @@ import ReactDOM from 'react-dom/client';
 import Useref from './Useref';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const arr1 = [2, 45, 46]
+// const arr1 = [2, 45, 46]
 
-const handle = ()=>{
-  console.log("hello from root")
-}
+// const handle = ()=>{
+//   console.log("hello from root")
+// }
 root.render(
   
  <>
- <Useref></Useref>
+ 
+<BrowserRouter>
+    <App/>
+    {/* <Useref></Useref> */}
+</BrowserRouter>
+ {/* <Useref></Useref> */}
  {/* <Checkbox1></Checkbox1> */}
   {/* <Formhandling/> */}
   {/* <Checkbox></Checkbox> */}

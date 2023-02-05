@@ -29,4 +29,4 @@ function ListRender() {
   )
 }
 
-export default ListRender
+export default ListRender;
