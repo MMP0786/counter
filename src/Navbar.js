@@ -6,13 +6,15 @@ function Navbar() {
 
     
     function navigateTo(){
-      navigate("/form")
+      navigate("/")
 
     }
   return (
     <div>
+       <NavLink to="user">User</NavLink> &nbsp;
         <NavLink to="/"> Home</NavLink>  &nbsp;
         <NavLink to="/other"> Form</NavLink> &nbsp; &nbsp;
+        <NavLink to="search"> Search</NavLink> &nbsp; &nbsp;
         <NavLink to="product">Product</NavLink><br></br>
         {/* <button onClick={()=>navigate("/about")}> Home</button> */}
         <button onClick={()=>navigateTo()}> Home</button>

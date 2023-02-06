@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import Axios from './Axios';
+// import { BrowserRouter } from 'react-router-dom';
 import "./index.css"
+import Newsearch from './Newsearch';
+// import Search from './Search';
 
-import App from './App';
+// import App from './App';
+// import Comp2 from './Comp2';
 // import Class1 from './Class1';
 // import ListRender from './ListRender';
 // import UseStateObj from './UseStateObj';
@@ -11,7 +15,10 @@ import App from './App';
 // import Formhandling from './Formhandling';
 // import Checkbox from './Checkbox';
 // import Checkbox1 from './Checkbox1';
-import Useref from './Useref';
+// import Useref from './Useref';
+// const Comp1 = lazy(()=> import("./Comp1"))
+// const Comp2 = lazy(()=>import("./Comp2") )
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const arr1 = [2, 45, 46]
@@ -22,11 +29,21 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
  <>
- 
-<BrowserRouter>
-    <App/>
+ {/* <Search/> */}
+ <Axios/>
+ <Newsearch/>
+ {/* <h1> lazy Loading Demo</h1>
+ <Suspense fallback={<div>Loading .... Comp1</div>}>
+  <Comp1/>
+ </Suspense>
+ <Suspense fallback={<div>Loading .... Comp2</div>}>
+  <Comp2/>
+
+ </Suspense> */}
+{/* <BrowserRouter> */}
+    {/* <App/> */}
     {/* <Useref></Useref> */}
-</BrowserRouter>
+{/* </BrowserRouter> */}
  {/* <Useref></Useref> */}
  {/* <Checkbox1></Checkbox1> */}
   {/* <Formhandling/> */}
