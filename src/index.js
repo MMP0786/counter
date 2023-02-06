@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import Axios from './Axios';
+import FormwithFormik from './FormwithFormik';
 // import { BrowserRouter } from 'react-router-dom';
 import "./index.css"
 import Newsearch from './Newsearch';
@@ -29,9 +30,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
  <>
+ <FormwithFormik/>
  {/* <Search/> */}
- <Axios/>
- <Newsearch/>
+ {/* <Axios/> */}
+ {/* <Newsearch/> */}
  {/* <h1> lazy Loading Demo</h1>
  <Suspense fallback={<div>Loading .... Comp1</div>}>
   <Comp1/>
