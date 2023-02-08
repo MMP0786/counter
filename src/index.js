@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import Axios from './Axios';
 import AxiosPost from './AxiosPost';
+import ClassPhase from './ClassPhase';
 import FormwithFormik from './FormwithFormik';
 import FormWithFormik2 from './FormWithFormik2';
 // import { BrowserRouter } from 'react-router-dom';
@@ -32,7 +33,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
  <>
- <AxiosPost/>
+ <ClassPhase/>
+ {/* <AxiosPost/> */}
  {/* <FormwithFormik/> */}
  {/* <FormWithFormik2/> */}
  {/* <Search/> */}
