@@ -2,7 +2,7 @@ import React from 'react'
 
 function Reducx() {
   return (
-    <div>Reducx</div>
+    <div>Play with redux</div>
   )
 }
 
