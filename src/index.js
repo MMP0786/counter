@@ -22,7 +22,7 @@ import Newsearch from './Newsearch';
 // import Useref from './Useref';
 // const Comp1 = lazy(()=> import("./Comp1"))
 // const Comp2 = lazy(()=>import("./Comp2") )
-
+import Classpractice from "./Classpractice"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const arr1 = [2, 45, 46]
@@ -34,6 +34,7 @@ root.render(
   
  <>
  <ClassPhase/>
+ <Classpractice/>
  {/* <AxiosPost/> */}
  {/* <FormwithFormik/> */}
  {/* <FormWithFormik2/> */}
