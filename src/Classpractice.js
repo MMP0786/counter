@@ -14,6 +14,9 @@ export default class Classpractice extends Component {
     }
 
     componentDidMount(){
+        console.log("componentDidMount called again")
+    }
+    componentDidMount(){
         console.log("componentDidMount called")
     }
   render() {
