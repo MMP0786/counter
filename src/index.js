@@ -23,6 +23,8 @@ import Newsearch from './Newsearch';
 // const Comp1 = lazy(()=> import("./Comp1"))
 // const Comp2 = lazy(()=>import("./Comp2") )
 import Classpractice from "./Classpractice"
+import PropsTypesExample1 from './PropsTypes';
+// import PropsTypes from './PropsTypes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // const arr1 = [2, 45, 46]
@@ -33,8 +35,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
  <>
- <ClassPhase/>
- <Classpractice/>
+ <PropsTypesExample1/>
+ {/* <ClassPhase/>
+ <Classpractice/> */}
  {/* <AxiosPost/> */}
  {/* <FormwithFormik/> */}
  {/* <FormWithFormik2/> */}
